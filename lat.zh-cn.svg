@@ -27,13 +27,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.366586"
-     inkscape:cx="364.17103"
+     inkscape:cx="365.53496"
      inkscape:cy="-9.547555"
-     inkscape:window-width="1920"
-     inkscape:window-height="1021"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1405"
+     inkscape:window-height="1218"
+     inkscape:window-x="1877"
+     inkscape:window-y="652"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      inkscape:export-bgcolor="#ffffffff" />
   <defs
@@ -190,113 +190,158 @@
          in2="comp1"
          id="feComposite15-31-6-0" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter15-11-48"
+       x="0"
+       y="0"
+       width="1.019685"
+       height="1.019685">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="1.000000"
+         flood-color="rgb(230,0,18)"
+         id="feFlood14-5-8" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="0.000000"
+         id="feGaussianBlur14-9-89" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="2.000000"
+         dy="2.000000"
+         id="feOffset14-8-7" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite14-48-7" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite15-1-6" />
+    </filter>
   </defs>
   <g
      inkscape:label="图层 1"
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g1"
-       transform="translate(-186.18122,-119.79789)">
-      <circle
-         style="fill:#ac1116;fill-opacity:1;stroke-width:0.294097;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers;filter:url(#filter15-4-3-7)"
-         id="path1-2-5-5"
-         cx="283.10873"
-         cy="183.35622"
-         r="50.799999" />
-      <text
-         xml:space="preserve"
-         style="font-size:41.5427px;line-height:0.8;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';text-decoration-color:#000000;fill:#ffffff;fill-opacity:1;stroke-width:0.354058;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
-         x="263.71933"
-         y="265.06683"
-         id="text1-8-9-9"
-         transform="skewY(-17.61373)"><tspan
-           sodipodi:role="line"
-           id="tspan1-8-2-4"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.5427px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.354058"
-           x="263.71933"
-           y="265.06683">LA</tspan><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5222px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.354058"
-           x="263.71933"
-           y="304.11697"
-           id="tspan12-9"><tspan
-             id="tspan15-0"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.5427px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.354058"> <tspan
-   style="letter-spacing:-2.64583px"
-   id="tspan14-9">T</tspan><tspan
-   style="font-size:23.9889px;letter-spacing:-2.64583px"
-   id="tspan13-1">∞</tspan></tspan></tspan></text>
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke-width:0.304213;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
-         id="rect3-38-9-7"
-         width="164.27541"
-         height="6.9969153"
-         x="138.20026"
-         y="259.00598"
-         transform="rotate(-17.535162)" />
+       id="g1">
       <g
-         id="g7-33-7-7"
-         transform="translate(215.80805,115.51494)"
-         style="fill:#ac1116;fill-opacity:1">
+         id="g157"
+         transform="translate(393.53688,-350.75066)">
+        <circle
+           style="fill:#ac1116;fill-opacity:1;stroke-width:0.294097;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers;filter:url(#filter15-11-48)"
+           id="path1-0-3"
+           cx="-296.60941"
+           cy="414.30896"
+           r="50.799999" />
+        <path
+           style="font-weight:bold;font-size:41.5427px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#e60012;stroke-width:0.354058;stroke-linejoin:round;paint-order:stroke fill markers"
+           d="m -283.91144,444.2529 -7.72694,2.45317 v -25.59031 l -9.01476,2.86203 v -7.22843 l 25.75647,-8.17723 v 7.22843 l -9.01477,2.86203 z"
+           id="path3-4-0" />
+        <text
+           xml:space="preserve"
+           style="font-size:41.5427px;line-height:0.8;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';text-decoration-color:#000000;fill:#ffffff;fill-opacity:1;stroke-width:0.354058;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+           x="-315.99881"
+           y="311.96927"
+           id="text1-8-9-9-7"
+           transform="skewY(-17.61373)"><tspan
+             sodipodi:role="line"
+             id="tspan1-8-2-4-7"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.5427px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.354058"
+             x="-315.99881"
+             y="311.96927">LA</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.5222px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.354058"
+             x="-315.99881"
+             y="351.01941"
+             id="tspan12-9-5"><tspan
+               id="tspan15-0-4"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.5427px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.354058"> <tspan
+   style="letter-spacing:-2.64583px"
+   id="tspan14-9-8">T</tspan><tspan
+   style="font-size:23.9889px;letter-spacing:-2.64583px"
+   id="tspan13-1-1">∞</tspan></tspan></tspan></text>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.304213;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+           id="rect3-1-0"
+           width="164.27541"
+           height="6.9969153"
+           x="-484.16364"
+           y="304.56302"
+           transform="rotate(-17.535162)" />
         <g
-           id="g6-3-3-1"
+           id="g7-7-5"
+           transform="translate(-363.91008,346.46768)"
            style="fill:#ac1116;fill-opacity:1">
-          <path
-             id="rect3-3-8-6-1"
-             style="fill:#ac1116;fill-opacity:1;stroke-width:0.304213;stroke-linejoin:round;paint-order:stroke fill markers"
-             d="m 115.38764,51.461876 14.62017,-4.612634 2.12644,6.7298 -14.94973,4.657909 z"
-             sodipodi:nodetypes="ccccc" />
-        </g>
-        <g
-           id="g5-04-1-5"
-           style="fill:#ac1116;fill-opacity:1">
-          <path
-             sodipodi:type="star"
-             style="fill:#ac1116;fill-opacity:1;stroke-width:0.264583;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
-             id="path4-7-2-9"
-             inkscape:flatsided="false"
-             sodipodi:sides="3"
-             sodipodi:cx="16.933331"
-             sodipodi:cy="-54.709957"
-             sodipodi:r1="23.535112"
-             sodipodi:r2="11.767556"
-             sodipodi:arg1="0.89570947"
-             sodipodi:arg2="1.942907"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="m 31.641955,-36.337209 -18.987102,-7.41054 -18.9871015,-7.41054 15.9112666,-12.738042 15.9112669,-12.738043 3.075835,20.148583 z"
-             inkscape:transform-center-x="-1.2303099"
-             inkscape:transform-center-y="1.3443425"
-             transform="matrix(0.29429691,0.38629552,-0.38629552,0.29429691,100.6592,60.367411)" />
+          <g
+             id="g6-5-9"
+             style="fill:#ac1116;fill-opacity:1">
+            <path
+               id="rect3-3-962-4"
+               style="fill:#ac1116;fill-opacity:1;stroke-width:0.304213;stroke-linejoin:round;paint-order:stroke fill markers"
+               d="m 115.38764,51.461876 14.62017,-4.612634 2.12644,6.7298 -14.94973,4.657909 z"
+               sodipodi:nodetypes="ccccc" />
+          </g>
+          <g
+             id="g5-1-6"
+             style="fill:#ac1116;fill-opacity:1">
+            <path
+               sodipodi:type="star"
+               style="fill:#ac1116;fill-opacity:1;stroke-width:0.264583;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+               id="path4-78-9"
+               inkscape:flatsided="false"
+               sodipodi:sides="3"
+               sodipodi:cx="16.933331"
+               sodipodi:cy="-54.709957"
+               sodipodi:r1="23.535112"
+               sodipodi:r2="11.767556"
+               sodipodi:arg1="0.89570947"
+               sodipodi:arg2="1.942907"
+               inkscape:rounded="0"
+               inkscape:randomized="0"
+               d="m 31.641955,-36.337209 -18.987102,-7.41054 -18.9871015,-7.41054 15.9112666,-12.738042 15.9112669,-12.738043 3.075835,20.148583 z"
+               inkscape:transform-center-x="-1.2303099"
+               inkscape:transform-center-y="1.3443425"
+               transform="matrix(0.29429691,0.38629552,-0.38629552,0.29429691,100.6592,60.367411)" />
+          </g>
         </g>
       </g>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.0444px;line-height:0;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';text-decoration-color:#000000;fill:#0068b5;fill-opacity:1;stroke-width:0.265;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
-         x="373.85626"
-         y="194.90706"
+         x="187.67505"
+         y="75.109169"
          id="text15-5-4-5"><tspan
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.0444px;line-height:1;font-family:MiSans;-inkscape-font-specification:MiSans;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-dasharray:none"
-           x="373.85626"
-           y="194.90706"
+           x="187.67505"
+           y="75.109169"
            id="tspan18-4-1-5">龙芯</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.01px;line-height:1;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold';text-decoration-color:#000000;fill:#0068b5;fill-opacity:1;stroke:none;stroke-width:0.328875;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="438.78839"
-         y="180.45274"
+         x="252.60718"
+         y="60.654854"
          id="text39-8-0-4"><tspan
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.01px;font-family:MiSans;-inkscape-font-specification:MiSans;fill:#000000;fill-opacity:1;stroke-width:0.328876"
-           x="438.78839"
-           y="180.45274"
+           x="252.60718"
+           y="60.654854"
            id="tspan53-4-7">架构</tspan><tspan
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.01px;font-family:MiSans;-inkscape-font-specification:MiSans;fill:#000000;fill-opacity:1;stroke-width:0.328876"
-           x="438.78839"
-           y="195.97046"
+           x="252.60718"
+           y="76.172569"
            id="tspan54-7-5">转译器</tspan></text>
     </g>
   </g>

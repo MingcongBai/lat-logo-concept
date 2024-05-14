@@ -26,14 +26,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.366586"
-     inkscape:cx="364.17103"
-     inkscape:cy="-9.547555"
-     inkscape:window-width="1920"
-     inkscape:window-height="1021"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:zoom="0.44861114"
+     inkscape:cx="452.50771"
+     inkscape:cy="132.63157"
+     inkscape:window-width="1405"
+     inkscape:window-height="1218"
+     inkscape:window-x="1503"
+     inkscape:window-y="457"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
@@ -75,67 +75,108 @@
          in2="comp1"
          id="feComposite15" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter15-8"
+       x="0"
+       y="0"
+       width="1.019685"
+       height="1.019685">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="1.000000"
+         flood-color="rgb(230,0,18)"
+         id="feFlood14-3" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="0.000000"
+         id="feGaussianBlur14-5" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="2.000000"
+         dy="2.000000"
+         id="feOffset14-6" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite14-5" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite15-9" />
+    </filter>
   </defs>
   <g
      inkscape:label="图层 1"
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g62"
-       transform="translate(0.26914137,-9.6403107)">
+       id="g1">
       <g
-         id="g21"
-         transform="translate(15.875,5.4652994)">
+         id="g12"
+         transform="translate(380.48681,182.47575)">
         <circle
-           style="fill:#0068b5;fill-opacity:1;stroke-width:0.294097;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers;filter:url(#filter15)"
-           id="path1"
-           cx="67.73333"
-           cy="67.73333"
+           style="fill:#0068b5;fill-opacity:1;stroke-width:0.294097;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers;filter:url(#filter15-8)"
+           id="path1-0"
+           cx="-296.60938"
+           cy="-118.91743"
            r="50.799999" />
+        <path
+           style="font-weight:bold;font-size:41.5427px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#e60012;stroke-width:0.354058;stroke-linejoin:round;paint-order:stroke fill markers"
+           d="m -283.91141,-88.973491 -7.72694,2.453168 v -25.590307 l -9.01476,2.86203 v -7.22843 l 25.75647,-8.17723 v 7.22843 l -9.01477,2.86203 z"
+           id="path3" />
         <text
            xml:space="preserve"
            style="font-size:41.5427px;line-height:0.8;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';text-decoration-color:#000000;fill:#ffffff;fill-opacity:1;stroke-width:0.354058;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
-           x="48.343906"
-           y="81.066048"
-           id="text1"
+           x="-315.99878"
+           y="-221.25713"
+           id="text1-7"
            transform="skewY(-17.61373)"><tspan
              sodipodi:role="line"
-             id="tspan1"
+             id="tspan1-6"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.5427px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.354058"
-             x="48.343906"
-             y="81.066048">LA</tspan><tspan
+             x="-315.99878"
+             y="-221.25713">LA</tspan><tspan
              sodipodi:role="line"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.5427px;line-height:0.8;font-family:MiSans;-inkscape-font-specification:'MiSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.354058"
-             x="48.343906"
-             y="120.11619"
-             id="tspan2"> T<tspan
+             x="-315.99878"
+             y="-182.20699"
+             id="tspan2-3"> T<tspan
    style="font-size:26.4363px;line-height:0.8;stroke-width:0.354058"
-   id="tspan3">X</tspan></tspan></text>
+   id="tspan3-7">X</tspan></tspan></text>
         <rect
            style="fill:#ffffff;fill-opacity:1;stroke-width:0.304213;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
-           id="rect3"
+           id="rect3-6"
            width="164.27541"
            height="6.9969153"
-           x="-32.330986"
-           y="83.865189"
+           x="-323.50726"
+           y="-203.88551"
            transform="rotate(-17.535162)" />
         <g
-           id="g7"
-           transform="translate(0.43264248,-0.10795289)">
+           id="g7-1"
+           transform="translate(-363.91005,-186.75871)">
           <g
-             id="g6">
+             id="g6-5">
             <path
-               id="rect3-3"
+               id="rect3-3-0"
                style="fill:#0068b5;stroke-width:0.304213;stroke-linejoin:round;paint-order:stroke fill markers"
                d="m 115.38764,51.461876 14.62017,-4.612634 2.12644,6.7298 -14.94973,4.657909 z"
                sodipodi:nodetypes="ccccc" />
           </g>
           <g
-             id="g5">
+             id="g5-6">
             <path
                sodipodi:type="star"
                style="fill:#0068b5;fill-opacity:1;stroke-width:0.264583;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke fill markers"
-               id="path4"
+               id="path4-5"
                inkscape:flatsided="false"
                sodipodi:sides="3"
                sodipodi:cx="16.933331"
@@ -155,7 +196,7 @@
       </g>
       <g
          id="g18"
-         transform="translate(-31.538352,-125.6789)">
+         transform="translate(-31.269211,-135.31921)">
         <g
            id="g49">
           <text
